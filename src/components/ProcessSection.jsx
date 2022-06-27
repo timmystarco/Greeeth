@@ -13,7 +13,7 @@ function ProcessSection({ BG, Pix, TextList, Index }) {
               <div className="text-left md:7/12 lg:w-6/12 ml-12">
                 <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">{TextList.title}</h2>
                 <ul className="mt-6 text-gray-600 list-disc leading-loose">
-                  {TextList.items.map((item) => (<li key={item.i}>{item}</li>))}
+                  {TextList.items.map((item) => (<li key={item.length + Index}>{item}</li>))}
                 </ul>
               </div>
             </div>
@@ -22,7 +22,7 @@ function ProcessSection({ BG, Pix, TextList, Index }) {
               <div className="text-left md:7/12 lg:w-6/12 ml-12">
                 <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">{TextList.title}</h2>
                 <ul className="mt-6 text-gray-600 list-disc leading-loose">
-                {TextList.items.map((item) => (<li key={item.i}>{item}</li>))}
+                  {TextList.items.map((item) => (<li key={item.length + Index}>{item}</li>))}
                 </ul>
               </div>
               <div className="md:5/12 lg:w-5/12">

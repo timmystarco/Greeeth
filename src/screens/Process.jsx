@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo, useId } from 'react';
 import { ProcessSection, UnderstandProcess } from '../components';
 import { BG1, BG2, BG3, BG4, BG5, BG6, BG3a, BG3b, Pix1, Pix2, Pix3, Pix4, Pix5, Pix6, Pix3a, Pix3b } from '../../assets/Process';
 
@@ -70,12 +70,14 @@ const componentsArray = [
 ];
 
 function Process() {
+  const ID = useId;
   return (
     <div>
       <UnderstandProcess />
       {
         componentsArray.map((comp, i) => (
           <ProcessSection
+            key={ID + i}
             BG={comp.background}
             Pix={comp.Illustration}
             TextList={comp.TextList}
@@ -86,4 +88,4 @@ function Process() {
     </div>
   );
 }
-export default Process;
+export default memo(Process);
