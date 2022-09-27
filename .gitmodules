@@ -1,0 +1,3 @@
+[submodule "greeethApi"]
+	path = greeethApi
+	url = https://github.com/suleimanabubakar/greeethApi.git
