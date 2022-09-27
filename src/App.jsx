@@ -47,6 +47,7 @@ import { Login } from "./screens/Auth/Login";
 import { Signup } from "./screens/Auth/Signup";
 import { Verify } from "./screens/Auth/Verify";
 import DashConsole from "./components/DashConsole";
+import Watson from "./components/watson";
 
 export const PageContext = createContext({});
 
@@ -259,6 +260,7 @@ function App() {
               />
             </Routes>
           </BrowserRouter>
+          <Watson />
         </div>
       </PageContext.Provider>
     </CookiesProvider>
