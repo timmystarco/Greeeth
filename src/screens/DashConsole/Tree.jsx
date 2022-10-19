@@ -101,14 +101,15 @@ const Tree = () => {
     }`
     );
     form_data.append("height", treeHeightInput);
+    form_data.append("tree_type", treeNameInput)
 
     var requestOptions = {
       method: "POST",
       headers: myHeaders,
       body: form_data,
     };
-    console.log(requestOptions);
-    console.log(myHeaders);
+
+
 
     try {
       fetch("https://api.greeeth.com/trees/", requestOptions)
@@ -170,7 +171,7 @@ const Tree = () => {
           <div className="left flex gap-4 items-center mr-5 ">
             <div className="p-2 cursor-pointer bg-lgreen border   rounded-full flex justify-between items-center">
               <div className="bg-lightgreen p-2 rounded-full">
-                <Treeicon clr="#008000" />
+                {/* <Treeicon clr="#008000" /> */}
               </div>
               <div className="flex flex-col text-left ml-2">
                 <div className="text-md font-bold text-white">
@@ -204,12 +205,19 @@ const Tree = () => {
               {cookies.locationLat}&#176;N, {cookies.locationLong}&#176;E
             </div>
           </div>
-          <img
+          {/* <img
             src={imageURL}
             alt="Tree illustration"
             className="sm:max-w-[350px] max-w-[300px] m-4 rounded-2xl"
-          />
+          /> */}
+
+
           <div className="sm:p-6 sm:pb-4 p-4 flex flex-col gap-2">
+
+
+          <label htmlFor="" className="text-sm font-bold text-gray-600 text-left">Enter Tree Type</label>
+
+
             <div className="p-1 border cursor-pointer hover:bg-lightgreen bd-lgreen border w-full rounded-full flex  items-center">
               <div className="bg-lightgreen p-2 ml-1 mr-4 rounded-full my-auto">
                 <Treeicon clr="#008000" />
@@ -223,16 +231,25 @@ const Tree = () => {
                 className="text-gray-900 text-base"
               />
             </div>
+
+
+
+            <label htmlFor="" className="text-sm font-bold text-gray-600 text-left">Select Tree Height</label>
+
             <div className="p-1 border cursor-pointer hover:bg-lightgreen bd-lgreen border w-full rounded-full flex  items-center">
               <div className="bg-lightgreen p-2 ml-1 mr-4 rounded-full my-auto">
                 <Treeicon clr="#008000" />
               </div>
-              <select id="employeenum" name="employeenum">
-                <option value="one">Enter tree Height</option>
-                <option value="two">10mm - 49mm</option>
-                <option value="three">50mm - 99mm</option>
-                <option value="four">100mm - 499mm</option>
-                <option value="five">500mm+</option>
+
+
+             
+
+              <select id="employeenum" placeholder="Enter Tree Height" name="employeenum" onInput={(e)=> setTreeHeightInput(e.target.value)}>
+                {/* <option value="one">Enter tree Height</option> */}
+                <option value="10mm - 49mm">10mm - 49mm</option>
+                <option value="50mm - 99mm">50mm - 99mm</option>
+                <option value="100mm - 499mm">100mm - 499mm</option>
+                <option value="500mm+">500mm+</option>
               </select>
             </div>
             <div className="p-4 cursor-pointer bg-lgreen border   rounded-full">
