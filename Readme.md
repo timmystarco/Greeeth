@@ -108,6 +108,45 @@ With this solution, we will create:
 *	No double counting 
 *	Validity 
 
+**TECHNOLOGY USED**
+Backend:
+Django
+Python
+Django rest framework
+Digital ocean ubuntu vpc
+Celery
+Postgres
+PostGis
+IBM weather api
+Docker
+
+
+Frontend:
+Vercel
+Js
+Vite
+Styled components
+React 
+Tailwind
+IBM watson virtual assistant
+
+Interactive Map:
+Arcgis 
+Gfw Builder
+
+**NEW RELIC**
+New relic is integrated into the website for focuses on performance and availability monitoring.
+
+* Data is received through API
+
+* KPI been tracked: Uptime, database response time, web transaction, transaction time, and user monitoring.
+
+* New Relic APM is been used.
+
+* Created a new dashboard.
+
+* Created an alert.
+
 **GREEETH Interactive Map**
 
 Greeeth is an interactive map that allows people to view the carbon footprint, carbon offset, forestry, deforestation, wildfire and lot more related to GHG Emission and climate change with the latest data, technology and tools.
