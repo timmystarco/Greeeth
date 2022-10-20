@@ -53,12 +53,12 @@ For organization that wants to offset their footprint and want their business to
 We are going to partner with planting trees organizations around the world that can also take part in planting. Then, finally we can choose the planting space manually and send a signal of planting foundation with the location. This will allow companies to partner with this organizations to carry out the planting project for them on the platform. 
 
 In Summary for how we detect planting location
-•	We get data on vulnerable location
-•	We check for planting locations and partner with tree planting organizations around the world.
-•	Individual/communities/locals can map out planting locations on the map
-•	Check locations with more CO2 emissions on the map and plant
-•	Choose where to plant manually 
-•	Vet planting foundation with location
+*	We get data on vulnerable location
+*	We check for planting locations and partner with tree planting organizations around the world.
+*	Individual/communities/locals can map out planting locations on the map
+*	Check locations with more CO2 emissions on the map and plant
+*	Choose where to plant manually 
+*	Vet planting foundation with location
 
 **	SEND PLANTING LOCATION TO USER **
 
@@ -91,14 +91,14 @@ Planters earn point for the planting task carried out when confirmed. This point
 
 With this solution, we will create:
 
-#	A single network for forest data
-#	Traceability and transparency for the tree planted and wood in supply chains
-#	Halt the idea of deforestation 
-#	A cross-border investment opportunity 
-#	A new way to preserve forests and tackle climate change without increasing budget 
-#	Accountability 
-#	No double counting 
-#	Validity 
+*	A single network for forest data
+*	Traceability and transparency for the tree planted and wood in supply chains
+*	Halt the idea of deforestation 
+*	A cross-border investment opportunity 
+*	A new way to preserve forests and tackle climate change without increasing budget 
+*	Accountability 
+*	No double counting 
+*	Validity 
 
 **GREEETH Interactive Map**
 
