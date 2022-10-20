@@ -109,30 +109,33 @@ With this solution, we will create:
 *	Validity 
 
 **TECHNOLOGY USED**
+
 Backend:
-Django
-Python
-Django rest framework
-Digital ocean ubuntu vpc
-Celery
-Postgres
-PostGis
-IBM weather api
-Docker
+
+* Django
+* Python
+* Django rest framework
+* Digital ocean ubuntu vpc
+* Celery
+* Postgres
+* PostGis
+* IBM weather api
+* Docker
 
 
 Frontend:
-Vercel
-Js
-Vite
-Styled components
-React 
-Tailwind
-IBM watson virtual assistant
+
+* Vercel
+* Js
+* Vite
+* Styled components
+* React 
+* Tailwind
+* IBM watson virtual assistant
 
 Interactive Map:
-Arcgis 
-Gfw Builder
+* Arcgis 
+* Gfw Builder
 
 **NEW RELIC**
 New relic is integrated into the website for focuses on performance and availability monitoring.
