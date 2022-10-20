@@ -152,5 +152,5 @@ New relic is integrated into the website for focuses on performance and availabi
 
 **GREEETH Interactive Map**
 
-Greeeth is an interactive map that allows people to view the carbon footprint, carbon offset, forestry, deforestation, wildfire and lot more related to GHG Emission and climate change with the latest data, technology and tools.
+Greeeth interactive map that allows people to view the carbon footprint, carbon offset, forestry, deforestation, wildfire and lot more related to GHG Emission and climate change with the latest data, technology and tools.
 
