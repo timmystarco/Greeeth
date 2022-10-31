@@ -140,6 +140,9 @@ Interactive Map:
 **NEW RELIC**
 New relic is integrated into the website for focuses on performance and availability monitoring.
 
+**Prototype for the Project**
+https://www.figma.com/file/3x9bxQ4X7CqU3pnGAdWztc/greeeth?node-id=458%3A112
+
 * Data is received through API
 
 * KPI been tracked: Uptime, database response time, web transaction, transaction time, and user monitoring.
